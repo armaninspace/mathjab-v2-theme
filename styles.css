@@ -1,5 +1,5 @@
 @font-face {
-  font-family: 'Montserrat medium' 'sans-serif';
+  font-family: 'Montserrat medium sans-serif';
   src: url(Fonts/Montserrat-Medium.ttf) format('truetype');
 }
 @font-face {
@@ -15,13 +15,12 @@ html, body {
  font-size: 81.25%;
  margin: 0;
  padding: 0;
- background-color:
+ background-color: #e1dfdd;
 }
 
 .header {
   background-color: #3a414c;
   height: 90px;
-  border-bottom: 0.5px solid white;
 }
 .logo {
   margin-left: 100px;
@@ -29,13 +28,51 @@ html, body {
   height: 90px;
 }
 .logo-name {
-  font-family: 'Montserrat medium' 'sans-serif';
+  font-family: 'Montserrat medium sans-serif';
   color: white;
   font-size: 2em;
   letter-spacing: 0.35em;
   margin-left: 25px;
 }
+
 .header-container {
   padding: 0;
 }
+.nav-links{
+  font-size: 1.35em;
+  color: white;
+  font-family: 'Montserrat medium sans-serif';
+  letter-spacing: 0.03em;
+  padding: 20px;
+  text-transform: uppercase;
+}
+.nav-links:hover {
+  color: rgb(128, 195, 168);
+  cursor: pointer;
+  text-decoration: none;
+  transition: 0.3s;
+}
+.menu-links:active, .menu-links:focus, .menu-links.current {
+  text-decoration: none;
+  color: rgb(128, 195, 168);
+  border-bottom: 2px solid rgb(128, 195, 168);
+}
+.menu-wrapper {
+  background-color: #5d626a;
+  height: 6vh;
+  display: flex;
+  flex-direction: row;
+  margin-left: 0;
+}
+.menu-links {
+ padding: 25px;
+}
+/*Section-1*/
+ .container-wrapper {
+  background-color: #f1f0ec;
+  margin-top: 10vh;
+  height: 50vh;
+  border-radius: 5px;
+  padding: 0 45px 45px 45px;
 
+ }

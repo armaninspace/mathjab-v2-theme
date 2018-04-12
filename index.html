@@ -10,12 +10,35 @@
 <body>
    <div class="container-fluid header-container">
     <header class="header">
-      <div class="row justify-content-start align-items-center no-gutters">
-       <embed class="logo" src="Mathjab LogoWhite1.svg" type=""></embed>
-       <span class="logo-name">MATHJAB</span>
+      <div class="row justify-content-center align-items-center no-gutters">
+       <div class="col">
+        <img class="logo" src="Mathjab LogoWhite1.svg">
+        <span class="logo-name">MATHJAB</span>
+       </div>
+      <div class="col text-right">
+         <a class="nav-links" href="#">Log In</a>
+         <a class="nav-links" href="#">Sign Up</a>
+        </div>
+      </div>
+     </header>
+   </div>
+    <div class="row justify-content-center align-items-center no-gutters menu-wrapper">
+      <a class="nav-links menu-links current" href="#">Questions</a>
+      <a class="nav-links menu-links" href="#">Lists</a>
+       <a class="nav-links menu-links" href="#">Topics</a>
+      </div>
      </div>
-    </header>
+   </div>
+
+    <!--Section-1-->
+
+    <div class="row justify-content-center no-gutters">
+     <div class="container container-wrapper col-8" >
+      <div class="col">
+      </div>
+    </div>
   </div>
+
 
 
 
@@ -23,4 +46,9 @@
 <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous">
 </script>
+<script type="text/javascript" src="slideContainer.js"></script>
+<script type="text/javascript" src="aos.js"></script>
+      <script type="text/javascript">
+        AOS.init();
+      </script>
 </html>
