@@ -31,10 +31,60 @@
    </div>
 
     <!--Section-1-->
-
-    <div class="row justify-content-center no-gutters">
-     <div class="container container-wrapper col-8" >
+    <div class="row justify-content-center no-gutters wrapper-row">
+      <div class="input-group">
+       <div class="input-group-prepend align-self-center">
+        <span class="input-group-text" id="">Keyword</span>
+       </div>
+       <input type="text" class="form-control col-2">
+       <div class="input-group-prepend align-self-center">
+        <span class="input-group-text" id="">Tags</span>
+       </div>
+       <input type="text" class="form-control col-2">
+       <a class="apply-link" href="#">Apply</a>
+      </div>
+     <div class="container container-wrapper col-8">
       <div class="col">
+
+        <table class="table table-hover ">
+  <thead>
+    <tr>
+      <th scope="col-2">Actions</th>
+      <th scope="col">Question</th>
+      <div class="col">
+      <th scope="col-2">Created</th>
+      <th scope="col-2">Modified</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">
+        <img class="actions-ico" src="edit.png">
+        <img class="actions-ico" src="favorite.png">
+        <img class="actions-ico view-ico" src="view.png">
+      </th>
+      <td class="question">Example Question for multiple choice.<br>
+     The function g is defined for all real numbers except for x=5<br>
+     What is a reasonable estimate for limitx→5g(x)?</td>
+      <td class="date-sort created">01/15/2018</td>
+      <td class="date-sort modified">03/08/2018</td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+      <td>Differentiate:
+        y=a1√a2−x2</td>
+      <td>10/04/2017</td>
+      <td>01/25/2018</td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+      <td>Differentiate:
+       y=xxx</td>
+      <td>10/04/2017</td>
+      <td>01/24/2018</td>
+    </tr>
+  </tbody>
+</table>
       </div>
     </div>
   </div>
@@ -46,6 +96,14 @@
 <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous">
 </script>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
+  });
+
+</script>
+<script type="text/javascript" async
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML"></script>
 <script type="text/javascript" src="slideContainer.js"></script>
 <script type="text/javascript" src="aos.js"></script>
       <script type="text/javascript">
