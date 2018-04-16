@@ -146,14 +146,16 @@ th[scope=col] {
   box-shadow: 0 1.45px 0 rgba(156,148,159,0.25);
 }
 .actions-ico {
-  padding-right: 10px;
+  margin-right: 10px;
   cursor: pointer;
 }
+
 .view-ico {
   padding-right: 0;
 }
 .row-actions {
   white-space: nowrap;
+  padding-left: 10px;
 }
 .footer {
   background: url("footer.png") no-repeat center bottom;
@@ -204,4 +206,39 @@ th[scope=col] {
 }
 .bookmark {
   padding-bottom: 22px;
+}
+
+@media (max-device-width: 850px) {
+ .nav-links, .menu-links{
+  font-size: 1.7em;
+}
+.logo-name {
+  font-size: 1.8em;
+}
+.input-group-text, .apply-link {
+  font-size: 1.55em;
+}
+th[scope="col"],.date-sort p {
+  font-size: 1.5em;
+}
+.question p {
+  font-size: 1.55em;
+}
+.container-wrapper {
+  min-width: 85vw;
+}
+.actions-ico {
+  width: 25px;
+  margin-right: 15px;
+}
+.footer-year {
+  font-size: 1.6em;
+}
+.footer li a  {
+  font-size: 1.85em;
+}
+.footer ul li:first-child:after {
+  margin: 14px;
+  width: .6em;
+  height: .6em;
 }
