@@ -157,11 +157,19 @@ th[scope=col] {
   white-space: nowrap;
   padding-left: 10px;
 }
+.arrow-up {
+ opacity: 0.6;
+ cursor: pointer;
+}
+.arrow:hover {
+  opacity: 0.48;
+  transition: 0.5s;
+}
 .footer {
-  background: url("footer.png") no-repeat center bottom;
+  background: url("Images, logos and icons/footer.png") no-repeat center bottom;
   overflow: hidden;
   min-height: 362px;
-  margin-top: 100px;
+  margin-top: 6vh;
   padding-top: 10px;
   clear: both;
   background-size: cover;
@@ -208,12 +216,81 @@ th[scope=col] {
   padding-bottom: 22px;
 }
 
+
+.pagination {
+  margin-bottom: 0;
+}
+.pagination-container {
+  text-align: center;
+  line-height: 10px;
+}
+
+.pagination-item {
+  list-style-type: none;
+  display: inline-block;
+  border-right: 1px solid #d7dadb;
+  font-size: 1.1em;
+  transform: scale(1) rotate(19deg) translateX(0px) translateY(0px) skewX(-10deg) skewY(-20deg);
+  text-decoration: none;
+}
+
+.pagination-item:hover,
+.pagination-item.is-active {
+  background-color: #e3765d;
+  border-right: 1px solid #fff;
+}
+.pagination-item:hover .pagination-link,
+.pagination-item.is-active .pagination-link {
+  color: #fff;
+}
+
+.pagination-item.first-number {
+  border-left: 1px solid #d7dadb;
+}
+
+.pagination-link {
+  padding: 10px 15px;
+  display: inline-block;
+  text-decoration: none;
+  color: #8b969c;
+  transform: scale(1) rotate(0deg) translateX(0px) translateY(0px) skewX(20deg) skewY(0deg);
+}
+.pagination-item--wide a {
+  color: #8b969c;
+}
+.pagination-item--wide, .pagination-item--wide a {
+  list-style-type: none;
+  display: inline-block;
+  color: #8b969c;
+  font-size: 1.25em;
+  font-family: 'Montserrat medium sans-serif';
+  display: inline-flex;
+  align-items: center;
+}
+
+.pagination-item--wide.first {
+  margin: 0 2em 0 0;
+}
+
+.pagination-item--wide.next {
+  margin: 0 0 0 1em;
+}
+.pagination-item--wide.last {
+  margin: 0 0 0 1em;
+}
+.pagination-link--wide:hover {
+  color: #e3765d;
+  text-decoration: none;
+}
+
+
+/*Mobile scale*/
 @media (max-device-width: 850px) {
  .nav-links, .menu-links{
   font-size: 1.7em;
 }
 .logo-name {
-  font-size: 1.8em;
+  font-size: 1.7em;
 }
 .input-group-text, .apply-link {
   font-size: 1.55em;
