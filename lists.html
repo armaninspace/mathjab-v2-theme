@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>MathJab</title>
+    <link rel="shortcut icon" type="image/png" href="Images, logos and icons/Mathjab-LogoBlack.ico">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({ tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]} });
+
+    </script>
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+</head>
+
+<body>
+
+    <!--Header-->
+    <div class="content">
+        <div class="container-fluid header-container">
+            <header class="header">
+                <div class="row justify-content-center align-items-center no-gutters">
+                    <div class="col">
+                        <img class="logo" src="Images, logos and icons/Mathjab LogoWhite1.svg">
+                        <span class="logo-name">MATHJAB</span>
+                    </div>
+                    <div class="col text-right">
+                        <a class="nav-links" href="#">Log In</a>
+                        <a class="nav-links" href="#">Sign Up</a>
+                    </div>
+                </div>
+            </header>
+        </div>
+        <div class="row justify-content-center align-items-center no-gutters menu-wrapper">
+            <a class="nav-links menu-links" href="index.html">Questions</a>
+            <a class="nav-links menu-links current" href="lists.html">Lists</a>
+            <a class="nav-links menu-links" href="topics.html">Topics</a>
+        </div>
+
+
+        <div class="container container-wrapper">
+            <div class="row justify-content-center no-gutters wrapper-row">
+                <div class="col">
+                    <div class="input-group search-inputs">
+                        <div class="input-group-prepend align-self-center">
+                            <span class="input-group-text" id="">Search</span>
+                        </div>
+                        <input type="text" class="form-control col-5">
+                        <a class="apply-link" href="#">Apply</a>
+                    </div>
+                    <a class="sticked-btn create-list" href="#">Create List</a>
+
+                    <!--Table of questions-->
+
+                    <table class="table table-hover light-background">
+                        <thead>
+                            <tr>
+                                <th scope="col">Actions</th>
+                                <th scope="col">Title</th>
+                                <th scope="col"><a href="#" class="sort-by">Created Date</a></th>
+                                <th scope="col"><a href="#" class="sort-by">Created By</a></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="row-actions">
+                                    <img class="actions-ico" src="Images, logos and icons/favorite.png" data-toggle="tooltip" data-placement="bottom" title="Favorites">
+                                    <img class="actions-ico view-ico" src="Images, logos and icons/view.png" data-toggle="tooltip" data-placement="bottom" title="View">
+                                </td>
+                                <td class="title-column mathjax">List001</td>
+                                <td class="date-sort created-date">01/15/2018</td>
+                                <td class="date-sort created-by">Demo</td>
+                            </tr>
+                            <tr>
+                                <td class="row-actions">
+                                    <img class="actions-ico" src="Images, logos and icons/favorite.png" data-toggle="tooltip" data-placement="bottom" title="Favorites">
+                                    <img class="actions-ico view-ico" src="Images, logos and icons/view.png" data-toggle="tooltip" data-placement="bottom" title="View">
+                                </td>
+                                <td class="title-column mathjax">Calc 173 -- VTECH
+                                </td>
+                                <td class="date-sort created-date">10/04/2017</td>
+                                <td class="date-sort created-by">George</td>
+                            </tr>
+                            <tr>
+                                <td class="row-actions">
+                                    <img class="actions-ico" src="Images, logos and icons/favorite.png" data-toggle="tooltip" data-placement="bottom" title="Favorites">
+                                    <img class="actions-ico view-ico" src="Images, logos and icons/view.png" data-toggle="tooltip" data-placement="bottom" title="View">
+                                </td>
+                                <td class="title-column mathjax">Test List</td>
+                                <td class="date-sort created-date">10/04/2017</td>
+                                <td class="date-sort created-by"> Stephon</td>
+                            </tr>
+                            <tr>
+                                <td class="row-actions">
+                                    <img class="actions-ico" src="Images, logos and icons/favorite.png" data-toggle="tooltip" data-placement="bottom" title="Favorites">
+                                    <img class="actions-ico view-ico" src="Images, logos and icons/view.png" data-toggle="tooltip" data-placement="bottom" title="View">
+                                </td>
+                                <td class="title-column mathjax">Diff Problems For Sally</td>
+                                <td class="date-sort created-date">01/15/2018</td>
+                                <td class="date-sort created-by">Ish Vardhani</td>
+                            </tr>
+                            <tr>
+                                <td class="row-actions">
+                                    <img class="actions-ico" src="Images, logos and icons/favorite.png" data-toggle="tooltip" data-placement="bottom" title="Favorites">
+                                    <img class="actions-ico view-ico" src="Images, logos and icons/view.png" data-toggle="tooltip" data-placement="bottom" title="View">
+                                </td>
+                                <td class="title-column mathjax">Yet Another List</td>
+                                <td class="date-sort created-date">01/15/2018</td>
+                                <td class="date-sort created-by">Ish Vardhani</td>
+                            </tr>
+                            <tr>
+                                <td class="row-actions">
+                                    <img class="actions-ico" src="Images, logos and icons/favorite.png" data-toggle="tooltip" data-placement="bottom" title="Favorites">
+                                    <img class="actions-ico view-ico" src="Images, logos and icons/view.png" data-toggle="tooltip" data-placement="bottom" title="View">
+                                </td>
+                                <td class="title-column mathjax">Calculus: Derivatives 1 | Taking Derivatives | Differential Calculus | Khan Academy</td>
+                                <td class="date-sort created-date">01/15/2018</td>
+                                <td class="date-sort created-by">George</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+          <div class="pagination-container text-left">
+            <ul class="pagination">
+                <li class="pagination-item--wide first"><a class="pagination-link--wide first" href="#">Previous</a> </li>
+                <li class="pagination-item first-number is-active"> <a class="pagination-link" href="#">1</a> </li>
+                <li class="pagination-item"> <a class="pagination-link" href="#">2</a> </li>
+                <li class="pagination-item"> <a class="pagination-link" href="#">3</a> </li>
+                <li class="pagination-item"> <a class="pagination-link more-pages" href="#">...</a> </li>
+                <li class="pagination-item"> <a class="pagination-link" href="#">4</a> </li>
+                <li class="pagination-item"> <a class="pagination-link" href="#">5</a> </li>
+                <li class="pagination-item--wide next"> <a class="pagination-link--wide next" href="#">Next</a> </li>
+                <li class="pagination-item--wide last"> <a class="pagination-link--wide last" href="#">Last</a> </li>
+            </ul>
+          </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <footer class="footer">
+        <div class="row justify-content-center footer-row no-gutters">
+            <img class="logo-footer" src="Images, logos and icons/Mathjab LogoWhite1.svg">
+        </div>
+        <h1 class="logo-name logo-name-footer">MATHJAB</h1>
+        <h1 class="footer-year">2017©.</h1>
+        <ul>
+            <li><a href="#">email@.com</a></li>
+            <li><a href="#">email@.com</a></li>
+        </ul>
+        <div class="row justify-content-center no-gutters">
+            <img class="bookmark" src="Images, logos and icons/bookmark.svg">
+        </div>
+    </footer>
+
+</body>
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous">
+</script>
+<script src="scrollToView.js" type="text/javascript"></script>
+</html>
