@@ -324,7 +324,13 @@ a.sort-by:after {
   border-top-color: #666;
   margin-top: 1px;
 }
-
+.topic-title {
+  color: rgb(107, 163, 141);
+}
+.topic-title:hover {
+  text-decoration: none;
+  opacity: 0.5;
+}
 /*Logged in styles*/
 .nav-avatar {
     height: 30px;
