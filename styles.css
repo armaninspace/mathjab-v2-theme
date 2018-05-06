@@ -152,6 +152,16 @@
      border-top: 0.4px solid rgba(72, 62, 74, 0.95);
      text-decoration: none;
 }
+.custom-control-description {
+    font-size: 1.25em;
+    font-family: 'Montserrat regular sans-serif';
+    letter-spacing: 0.03em;
+    vertical-align: middle;
+}
+.custom-control-indicator:checked {
+    color: white;
+    background: rgb(128, 195, 168);
+}
 
  .table td {
      font-size: 1.48em;
